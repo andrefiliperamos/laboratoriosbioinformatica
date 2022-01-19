@@ -1,3 +1,5 @@
+# Código
+
 import Bio
 from Bio.Blast import NCBIWWW
 from Bio.Blast import NCBIXML
@@ -24,3 +26,7 @@ def blast():
     bin = webbrowser.open('results.xml', 'rb')
 
 blast()
+
+
+# Créditos do Trabalho:
+# Andé Filipe Moura Alves dos Santos Ramos (100%)
